@@ -1,0 +1,51 @@
+/*Jennifer Miller*/
+body
+{
+    
+    background-image: linear-gradient(rgb(0, 255, 149), blue);
+    background-repeat: no-repeat;
+    color: goldenrod;
+
+}
+
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    color: rgb(139, 12, 12);
+}
+
+p
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(1, 48, 48);
+
+}
+
+nav
+{
+    height: 60px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+    color: midnightblue;
+}
+
+footer
+{
+    text-align: center;
+    margin-right: 200px;
+    color: white;
+    background-color: black;
+        
+}
+
+#memeImage
+{
+    margin-right: 200px;
+}

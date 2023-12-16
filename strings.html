@@ -1,0 +1,54 @@
+<!-- Jennifer Miller -->
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>strings</title>
+    <script src = "stings2.js"></script> <!-- my JavaScript file -->
+    <link rel = "Stylesheet" href="stings3.css"> <!-- my CSS file -->
+</head>
+<body>
+    <h1>
+        Assignment 3.1 Palidrome <!-- my title -->
+    </h1>
+    <br>
+    <form id = "login" onsubmit = "return false"> <!--  for my page info for on subit click -->
+        Palidrome Checker: <input type = "text" id = "Checker"/>   <!-- id for the js to hook up to  -->    
+
+        <input type = "submit" onclick = "palChecker();"/>
+    </form>
+
+    <div id = "yourInput">Your Input</div> <!-- Area to show your input  -->
+    <div id = "palCheckerDisplay">Palidrome Checker Results: </div><!--to display the word backwards -->
+    <div id = "palCheckerResults"></div> <!-- to display if it is a palidrome -->
+    <br><br><br><br><br><br>
+
+    
+    <form id = "login" onsubmit="return false">
+        First Name: <input type = "text" id = "firstNamestring"/><!-- to input your first name -->
+        <br><br>
+        Last Name: <input type = "text" id = "lastNamestring" /><!-- to inpult your last name -->
+        <br><br>
+        Zip Code:<input type = "number" id = "zipCodestring"required/><!-- to inpult your zip code -->
+        <br><br>
+
+        <div id = "Submit">
+            <input type="submit" onclick="checkInfo()"> <!-- to submit your answers -->
+    </form>
+
+    <br>
+    <div id = "Warning"></div> <!-- place for js to place warning text -->
+
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <footer> <!-- this is my footer-->
+        <p>
+            <a href="file:///E:/Visual%20Studio/Code%20file/Week%205/MainMenu.html">Click here for Main Menu</a> <!-- this is my Main Menu link-->
+        <br>
+            Copyright 2023 JM<br>
+            Dont Mess With Copyrights!! <!-- this is my Warning-->
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+button {
+    background-color: crimson;
+    border-color: brown;
+    width: 75px;
+    height: 50px;
+}
+body
+{
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
